@@ -1,0 +1,450 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"home_cta",
+				"home_cta_2_button"
+			],
+			[
+				"in",
+				"inside"
+			],
+			[
+				"logo-red",
+				"logo-red-bright"
+			],
+			[
+				"font-fam",
+				"font-family-sans-serif"
+			],
+			[
+				"font-family",
+				"font-family-serif"
+			],
+			[
+				"red-dama",
+				"red-damask-dark"
+			],
+			[
+				"mad-libs",
+				"mad-libs-container"
+			],
+			[
+				"red",
+				"logo-red"
+			],
+			[
+				"logo",
+				"logo-red-bright"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 67.0,
+		"selected_items":
+		[
+			[
+				"new file",
+				"ANF: New File"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": true,
+		"side_bar_visible": true,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/michael/Sites/vocalid-ng/vocalid/www/templates/voicebank.html",
+		"/Volumes/21CL/public_html/wp-content/themes/twentyfirst/header.php",
+		"/Users/michael/Sites/vocalid-ng/vocalid/www/static/css/sass/sections/_hvb.scss",
+		"/Users/michael/Sites/vocalid-ng/vocalid/www/static/css/sass/sections/_grayscale.scss",
+		"/Users/michael/Sites/vocalid-ng/vocalid/www/templates/portal/dashboard.html",
+		"/Users/michael/Sites/vocalid-ng/vocalid/www/templates/portal/emailReferral.html",
+		"/Users/michael/Sites/vocalid-ng/vocalid/www/templates/index.html",
+		"/Users/michael/Sites/vocalid-ng/vocalid/www/templates/portal/program.html",
+		"/Users/michael/Sites/vocalid-ng/vocalid/www/static/css/sass/libraries/_mixins.scss",
+		"/Users/michael/Sites/vocalid-ng/vocalid/www/templates/portal/accountSettings.html",
+		"/Users/michael/Sites/vocalid-ng/vocalid/www/templates/portal/program-vocalid",
+		"/Users/michael/Desktop/notifications-vocalid",
+		"/Users/michael/Sites/vocalid-ng/vocalid/www/static/js/tp/autocomplete/autocomplete.js",
+		"/Users/michael/Sites/vocalid-ng/vocalid/www/static/js/portal/portalModule.js",
+		"/Users/michael/Sites/vocalid-ng/vocalid/www/static/css/sass/libraries/_variables.scss",
+		"/Users/michael/Sites/vocalid-ng/vocalid/www/templates/portal/profileSettings.html",
+		"/Users/michael/Sites/vocalid-ng/vocalid/www/templates/portal/matches.html",
+		"/Users/michael/Sites/vocalid-ng/vocalid/www/templates/portal/profileView.html",
+		"/Users/michael/Sites/vocalid-ng/vocalid/www/static/js/tp/css/font-montserrat.css",
+		"/Users/michael/Sites/vocalid-ng/vocalid/www/static/js/tp/css/font.oxygen.css",
+		"/Users/michael/Sites/vocalid-ng/vocalid/www/static/js/tp/css/font-awesome.4.3.0.min.css",
+		"/Users/michael/Sites/vocalid-ng/vocalid/www/static/js/tp/css/font-source-sans.css",
+		"/Users/michael/Sites/vocalid-ng/vocalid/www/static/js/tp/css/jquery-ui.min.css",
+		"/Users/michael/Sites/vocalid-ng/vocalid/www/static/fonts/Campton-Light.otf",
+		"/Users/michael/Sites/vocalid-ng/vocalid/www/static/js/tp/angular-file-upload.js",
+		"/Users/michael/Downloads/Zion_Plus/Zion_icns/Apps/Apps_1 Password.icns",
+		"/Users/michael/Sites/vocalid-ng/vocalid/www/templates/base.html",
+		"/Users/michael/Sites/vocalid-ng/vocalid/www/static/js/tp/angular-ui-router.min.0.2.8.js",
+		"/Users/michael/Sites/vocalid-ng/vocalid/www/static/js/tp/css/font-ostrich-sans.css",
+		"/Users/michael/Sites/vocalid-ng/vocalid/www/static/css/sass/sections/_about.scss",
+		"/Users/michael/Sites/vocalid-ng/vocalid/www/static/images/vocalid-icon-blue.svg",
+		"/Users/michael/Sites/vocalid-ng/vocalid/www/static/images/vocalid-icon-dark.svg",
+		"/Users/michael/Dropbox/Apps/paperplane.io/21cl.paperplane.io/event.html",
+		"/Users/michael/Sites/21CL/wp-content/themes/twentyfirst/style.css",
+		"/Users/michael/Sites/21CL/wp-content/themes/twentyfirst/page-events.php",
+		"/Users/michael/Sites/21CL/wp-content/themes/twentyfirst/header.php",
+		"/Users/michael/Sites/21CL/wp-content/themes/twentyfirst/404.php",
+		"/Users/michael/Sites/21CL/wp-content/themes/twentyfirst/page.php",
+		"/Users/michael/Sites/21CL/wp-content/themes/twentyfirst/template-parts/content-page.php",
+		"/Users/michael/Sites/21CL/wp-content/themes/twentyfirst/single-case-studies.php",
+		"/Users/michael/Sites/21CL/wp-content/themes/twentyfirst/page-courses.php",
+		"/Users/michael/Sites/21CL/wp-content/themes/twentyfirst/template-parts/content-single.php",
+		"/Users/michael/Sites/21CL/wp-content/themes/twentyfirst/single.php",
+		"/Users/michael/Sites/21CL/wp-content/themes/twentyfirst/taxonomy-format.php",
+		"/Users/michael/Sites/21CL/wp-content/themes/twentyfirst/functions.php",
+		"/Users/michael/Sites/21CL/wp-content/themes/twentyfirst/taxonomy-subject-visual-literacy.php",
+		"/Users/michael/Sites/21CL/wp-content/themes/twentyfirst/taxonomy-subject.php",
+		"/Users/michael/Sites/21CL/wp-content/themes/twentyfirst/single-courses.php",
+		"/Users/michael/Sites/21CL/wp-content/themes/twentyfirst/taxonomy-subject-sustainability.php",
+		"/Users/michael/Sites/21CL/wp-content/themes/twentyfirst/taxonomy-subject-information-technology.php",
+		"/Users/michael/Sites/21CL/wp-content/themes/twentyfirst/taxonomy-subject-curriculum-planning.php",
+		"/Users/michael/Sites/21CL/wp-content/themes/twentyfirst/taxonomy-subject-classroom-management.php",
+		"/Users/michael/Sites/21CL/wp-content/themes/twentyfirst/taxonomy-subject-credentialing.php",
+		"/Users/michael/Sites/21CL/wp-content/themes/twentyfirst/template-parts/content-search.php",
+		"/Users/michael/Sites/21CL/wp-content/themes/twentyfirst/index.php",
+		"/Users/michael/Sites/21CL/wp-content/themes/twentyfirst/search.php",
+		"/Users/michael/Sites/21CL/wp-content/themes/twentyfirst/template-parts/content-course.php",
+		"/Users/michael/Sites/21CL/wp-content/themes/twentyfirst/page-home.php",
+		"/Users/michael/Sites/21CL/wp-content/themes/twentyfirst/page-services.php",
+		"/Users/michael/Sites/21CL/wp-content/themes/twentyfirst/page-consulting.php",
+		"/Users/michael/Sites/21CL/wp-content/themes/twentyfirst/single-course.php",
+		"/Users/michael/Sites/21CL/wp-content/themes/twentyfirst/footer.php",
+		"/Users/michael/Sites/21CL/wp-content/themes/twentyfirst/style.scss",
+		"/Users/michael/Sites/21CL/wp-content/themes/twentyfirst/assets/js/main.js",
+		"/Users/michael/Sites/21CL/wp-content/themes/twentyfirst/template-parts/content-bio.php",
+		"/Users/michael/Sites/21CL/wp-content/themes/twentyfirst/sidebar.php",
+		"/Users/michael/Sites/21CL/wp-content/themes/twentyfirst/layouts/sidebar-content.css",
+		"/Users/michael/Sites/21CL/wp-content/themes/twentyfirst/page-about.php",
+		"/Users/michael/Sites/21CL/wp-content/themes/twentyfirst/page-research.php",
+		"/Users/michael/Sites/21CL/21CL.sublime-workspace",
+		"/Users/michael/Sites/21CL/wp-content/plugins/ajax-load-more/core/functions.php",
+		"/Users/michael/Sites/21CL/wp-content/plugins/ajax-load-more/ajax-load-more.php",
+		"/Users/michael/Sites/21CL/wp-content/plugins/ajax-load-more/core/repeater/default.php",
+		"/Users/michael/Sites/21CL/wp-content/themes/twentyfirst/page-blog.php",
+		"/Users/michael/Sites/21CL/wp-content/themes/twentyfirst/page-service-dynamic.php",
+		"/Users/michael/Sites/21CL/wp-content/themes/twentyfirst/page-service-description.php",
+		"/Users/michael/Sites/vocalid-ng/vocalid/www/templates/portal.html",
+		"/Users/michael/Sites/vocalid-ng/vocalid/www/static/css/sass/sections/_portal.scss",
+		"/Users/michael/Dropbox/Apps/paperplane.io/21cl.paperplane.io/assets/css/main.css",
+		"/Users/michael/Sites/21CL/static/services.html",
+		"/Users/michael/Sites/21CL/static/event.html",
+		"/Users/michael/Sites/21CL/static/research.html",
+		"/Users/michael/Sites/21CL/static/courses.html",
+		"/Users/michael/Sites/21CL/static/consulting.html",
+		"/Users/michael/Sites/21CL/static/index.html",
+		"/Users/michael/Sites/21CL/wp-content/themes/twentyfirst/assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js",
+		"/Users/michael/Sites/21CL/wp-content/themes/twentyfirst/screenshot.png",
+		"/Users/michael/Sites/21CL/static/assets/css/main.css",
+		"/Users/michael/Sites/21CL/static/study.html",
+		"/Users/michael/Sites/21CL/static/post.html",
+		"/Users/michael/Sites/21CL/static/events.html",
+		"/Users/michael/Sites/21CL/static/assets/css/ie.css",
+		"/Users/michael/Sites/21CL/static/about.html",
+		"/Users/michael/Sites/21CL/wp-content/themes/twentyfourteen/genericons/font/genericons-regular-webfont.svg",
+		"/Users/michael/Sites/21CL/static/assets/js/main.js",
+		"/Users/michael/Sites/vocalid-ng/vocalid/www/templates/template.html",
+		"/Users/michael/Sites/vocalid-ng/vocalid/www/static/css/sass/application.scss",
+		"/Users/michael/Sites/vocalid-ng/vocalid/www/static/js/hvb-admin.js",
+		"/Users/michael/Sites/vocalid-ng/vocalid/www/static/js/hvb-server.js",
+		"/Users/michael/Sites/vocalid-ng/vocalid/www/static/js/hvb-studio.js",
+		"/Users/michael/Sites/21CL/static/assets/js/vendor/slideout.min.js",
+		"/Users/michael/Sites/21CL/static/assets/scss/style.scss",
+		"/Users/michael/Sites/21CL/static/assets/scss/partials/_functions.scss",
+		"/Users/michael/Sites/21CL/static/assets/scss/partials/_grid.scss",
+		"/Users/michael/Sites/21CL/static/assets/scss/editor-style.scss",
+		"/Users/michael/Sites/21CL/static/assets/css/style.css",
+		"/Users/michael/Sites/21CL/static/assets/scss/admin.scss",
+		"/Users/michael/Sites/21CL/static/assets/scss/ie.scss",
+		"/Users/michael/Sites/21CL/static/assets/scss/login.scss",
+		"/Users/michael/Sites/21CL/wp-config.php",
+		"/Users/michael/Sites/21CL/index.php",
+		"/Users/michael/Sites/WIMSdotcom/js/script.js",
+		"/Users/michael/Sites/WIMSdotcom/images/now-watching.jpg",
+		"/Users/michael/Sites/WIMSdotcom/js/jquery.leanModal.min.js",
+		"/Users/michael/Dropbox/programmer_app/app/assets/stylesheets/general.css.scss",
+		"/Users/michael/Dropbox/programmer_app/app/assets/stylesheets/matcher.css.scss",
+		"/Users/michael/Dropbox/programmer_app/app/assets/stylesheets/topics_show.css.scss",
+		"/Users/michael/Dropbox/programmer_app/app/views/home/match.html.erb",
+		"/Users/michael/Dropbox/programmer_app/app/views/verticals/show.html.erb",
+		"/Users/michael/Dropbox/programmer_app/app/views/layouts/application.html.erb",
+		"/Users/michael/Dropbox/programmer_app/app/views/courses/index.html.erb",
+		"/Users/michael/Dropbox/programmer_app/app/views/quiz/index.html.erb",
+		"/Users/michael/Dropbox/programmer_app/app/views/rankings/coding_bootcamps.html.erb",
+		"/Users/michael/Dropbox/programmer_app/app/views/blogs/show.html.erb",
+		"/Users/michael/Dropbox/programmer_app/app/views/topics/show.html.erb",
+		"/Users/michael/Dropbox/programmer_app/app/assets/stylesheets/school_new.css.scss",
+		"/Users/michael/Dropbox/programmer_app/app/assets/stylesheets/school.css.scss",
+		"/Users/michael/Dropbox/programmer_app/app/assets/stylesheets/topics.css.scss"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/michael/foneem/",
+			"/Users/michael/Dropbox/programmer_app/app/assets/css"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"col-bu",
+			"button",
+			"content-section",
+			"subtitle",
+			"alert",
+			"dashboard-",
+			"title",
+			"#dashboard-alert",
+			"alert",
+			"btn {",
+			"#dashboard-alert",
+			"btn",
+			"title",
+			"nav",
+			"#dashboard-invite",
+			"vocalid",
+			"#footer {",
+			"#footer",
+			"footer-wrapper {",
+			"footer-wrapper",
+			"#dashboard-invite",
+			"friends",
+			"invite",
+			"subheader",
+			"progress",
+			".col",
+			"padding: 10px",
+			"margin-right: 0;",
+			"text-align: left",
+			"alert",
+			"name",
+			"header",
+			"header()",
+			"bold",
+			"hover {",
+			"greeting",
+			"[[ user",
+			"header()",
+			"header ()",
+			"btn {",
+			"portal-header",
+			"po",
+			"portal-header",
+			"portal-headerp",
+			"h4 {",
+			"title",
+			"alert",
+			"url('",
+			"select",
+			"col50-",
+			"col50",
+			"first-of-type",
+			"login-field",
+			"input {",
+			"margin-bottom: 20px",
+			"col50",
+			"2col",
+			"#name",
+			"name",
+			"login-field",
+			"h5",
+			"30px",
+			"25px",
+			"right",
+			"greeting",
+			"include",
+			"btn",
+			"margin-right: 10px",
+			"color: ",
+			"h5",
+			"btn",
+			"visual",
+			"col {",
+			"3px",
+			"btn",
+			".btn",
+			"btn.red",
+			"wrapper",
+			"border",
+			"4px",
+			"img",
+			"h1 { margin",
+			"greeting",
+			"content-",
+			"title",
+			"border-radius",
+			"active",
+			"li a",
+			"col",
+			"visual-caption",
+			"min-width:",
+			"btn",
+			"visual",
+			"btn",
+			"btn.",
+			"header",
+			"hover",
+			".nav li a",
+			"hover",
+			"toggle",
+			"border-bottom:",
+			"h4",
+			"notification",
+			"contact",
+			"option",
+			"course",
+			"echo",
+			"select {",
+			"grey-bg",
+			"font-size: 0;",
+			"font-size: 0",
+			"blog",
+			"min-width",
+			"900",
+			"module__img",
+			"filler",
+			"module--study",
+			"vw",
+			"vh",
+			"module--study",
+			"margin-top: 0",
+			"margin-top: 0px",
+			"filler",
+			"img",
+			"module__",
+			".module__col-text",
+			"module__col-text",
+			".module--study"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"rea",
+				"README.rdoc"
+			],
+			[
+				"applicantind",
+				"app/views/applicants/index.html.erb"
+			],
+			[
+				"topic",
+				"app/models/topic.rb"
+			],
+			[
+				"read",
+				"README.rdoc"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 255.0,
+	"status_bar_visible": true
+}
