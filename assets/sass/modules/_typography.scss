@@ -1,0 +1,95 @@
+/*----------------------------------------
+  #TYPOGRAPHY
+----------------------------------------*/
+
+html {
+	font-size: $rem-base;
+}
+
+.wf-loading {
+    @include opacity(0);
+}
+
+.wf-active, .wf-inactive {
+    @include opacity(1);
+    @include single-transition(opacity,0.3s,ease-in-out);
+}
+
+h1,h2,h3,h4,h5,h6,p {
+	@include line-height($line-height-base-ratio);
+	margin: 2em 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: $sans-serif;
+	@include line-height($line-height-base-ratio);
+}
+
+h1,h2,h3 {
+	font-weight: $bold-font;
+	@include text-transform(-1px, none);
+}
+
+h4,h5,h6 {
+	font-weight: $thick-font;
+}
+
+h1 {
+	@include font-size($lg-font);
+}
+
+h2 {
+	@include font-size($md-font);
+}
+
+h3 {
+	@include font-size($sm-font);
+}
+
+h4 {
+	@include font-size($xs-font);
+}
+
+.h1 {
+	@include font-size($huge-font);
+}
+
+.h2 {
+	@include font-size($xxxl-font);
+}
+
+.h3 {
+	@include font-size($xxl-font);
+}
+
+.h4 {
+	@include font-size($xl-font);
+}
+
+.h5 {
+	@include font-size($lg-font);
+}
+
+.h6 {
+	@include font-size($md-font);
+	@include text-transform(1px, uppercase);
+}
+
+p {
+	font-family: $serif;
+	font-weight: $light-font;
+	@include font-size($md-font);
+	@include line-height($line-height-base-ratio);
+}
+
+p a {
+	text-decoration: none;
+	padding-bottom: 5px;
+	border-bottom: 1px solid $dark-grey;
+}
+
+.small-text {
+	@include font-size($sm-font);
+	@include text-transform(1px, uppercase);
+	@include line-height($line-height-base-ratio);
+}

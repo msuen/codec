@@ -1,0 +1,53 @@
+/*----------------------------------------
+  #SIDEBAR
+----------------------------------------*/
+
+.sidebar {
+	@include bp(lg) {
+		@include span(3 of 12);
+	}
+}
+
+// Header
+header {
+	margin: 2em;
+}
+
+.header__logo {
+	margin: 0;
+}
+
+.header__logo a {
+    display: block;
+	height: 80px;
+    width: 80px;
+	@include img-2x('logo.png','logo-2x.png');
+}
+
+.header__name {
+	@extend %visuallyhidden;
+}
+
+.header__description {
+	@extend .small-text;
+	max-width: 20em;
+	color: $med-grey;
+	font-family: $sans-serif;
+	width: 95%;
+    display: block;
+    margin: 2em 0;
+}
+
+// Navigation
+nav {
+	display: block;
+	margin: 2em;
+}
+
+nav ul {
+	@extend .small-text;
+	font-family: $sans-serif;
+	a {
+		margin-bottom: 1.5em;
+	}
+}

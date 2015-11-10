@@ -1,0 +1,15 @@
+/*----------------------------------------
+  #BASE
+----------------------------------------*/
+
+/* This is where we load up the Sass environment for base styles + global project variables */
+
+// #Compass
+@import "compass/reset";
+@import "compass";
+@import "compass/layout";
+
+// #Variables and Mixins
+@import "variables";
+@import "mixins";
+
