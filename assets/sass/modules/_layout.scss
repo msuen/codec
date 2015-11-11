@@ -175,7 +175,10 @@ img {
 }
 
 .contact__form {
+	max-width: 646px;
 	input {
+		font-family: $sans-serif;
+		font-size: 1.5rem;
 		min-width: 200px;
 		width: 100%;
 		max-width: 95%;
@@ -185,19 +188,53 @@ img {
 		padding: 10px 15px;
 		@include bp(md) {
 			width: auto;
+			margin-right: 20px;
+			max-width: 200px;
 		}
 		&:focus, &:active {
 			outline: none;
 			border: 1px $red solid;
 			@include single-transition(border,0.3s,ease-in-out);
 		}
+		&:nth-of-type(3) {
+			margin-right: 0;
+		}
 	}
 	textarea {
 		@extend input;
+		display: block;
+		@include bp(md) {
+			width: 100%;
+			margin: 0;
+			max-width: 646px;
+		}
 		height: 60px;
+		@include single-transition(height,0.5s,ease-in-out);
 		&:focus, &:active {
-			height: 400px;
+			height: 200px;
 			@include single-transition(height,0.5s,ease-in-out);
+		}
+	}
+	button {
+		margin-right: 2em;
+		background-color: transparent;
+		width: 200px;
+		padding: 10px 0 11px;
+		border: 1px solid $sourdough;
+		color: $sourdough;
+		float: right;
+		font-family: $sans-serif;
+		@include text-transform(1px,uppercase);
+		@include bp(md) {
+			margin: 2em 0;
+			float: right;
+		}
+		&:hover, &:focus, &:active {
+			outline: none;
+			background-color: $white;
+			color: $black;
+			border: 1px solid $white;
+			@include single-transition(all,0.5s,ease-in-out);
 		}
 	}
 }

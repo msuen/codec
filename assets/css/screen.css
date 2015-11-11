@@ -340,32 +340,74 @@ img {
   max-width: 95%;
   max-width: calc(100% - 20px); }
 
-.contact__form input, .contact__form textarea {
-  min-width: 200px;
-  width: 100%;
-  max-width: 95%;
-  max-width: calc(100% - 20px);
-  margin-bottom: 2em;
-  border: 1px #ffffff solid;
-  padding: 10px 15px; }
-  @media (min-width: 768px) {
-    .contact__form input, .contact__form textarea {
-      width: auto; } }
-  .contact__form input:focus, .contact__form textarea:focus, .contact__form input:active, .contact__form textarea:active {
-    outline: none;
-    border: 1px #ea1e31 solid;
-    -moz-transition: border 0.3s ease-in-out;
-    -o-transition: border 0.3s ease-in-out;
-    -webkit-transition: border 0.3s ease-in-out;
-    transition: border 0.3s ease-in-out; }
-.contact__form textarea {
-  height: 60px; }
-  .contact__form textarea:focus, .contact__form textarea:active {
-    height: 400px;
+.contact__form {
+  max-width: 646px; }
+  .contact__form input, .contact__form textarea {
+    font-family: "sofia-pro", "Helvetica Neue", "Helvetica", sans-serif;
+    font-size: 1.5rem;
+    min-width: 200px;
+    width: 100%;
+    max-width: 95%;
+    max-width: calc(100% - 20px);
+    margin-bottom: 2em;
+    border: 1px #ffffff solid;
+    padding: 10px 15px; }
+    @media (min-width: 768px) {
+      .contact__form input, .contact__form textarea {
+        width: auto;
+        margin-right: 20px;
+        max-width: 200px; } }
+    .contact__form input:focus, .contact__form textarea:focus, .contact__form input:active, .contact__form textarea:active {
+      outline: none;
+      border: 1px #ea1e31 solid;
+      -moz-transition: border 0.3s ease-in-out;
+      -o-transition: border 0.3s ease-in-out;
+      -webkit-transition: border 0.3s ease-in-out;
+      transition: border 0.3s ease-in-out; }
+    .contact__form input:nth-of-type(3), .contact__form textarea:nth-of-type(3) {
+      margin-right: 0; }
+  .contact__form textarea {
+    display: block;
+    height: 60px;
     -moz-transition: height 0.5s ease-in-out;
     -o-transition: height 0.5s ease-in-out;
     -webkit-transition: height 0.5s ease-in-out;
     transition: height 0.5s ease-in-out; }
+    @media (min-width: 768px) {
+      .contact__form textarea {
+        width: 100%;
+        margin: 0;
+        max-width: 646px; } }
+    .contact__form textarea:focus, .contact__form textarea:active {
+      height: 200px;
+      -moz-transition: height 0.5s ease-in-out;
+      -o-transition: height 0.5s ease-in-out;
+      -webkit-transition: height 0.5s ease-in-out;
+      transition: height 0.5s ease-in-out; }
+  .contact__form button {
+    margin-right: 2em;
+    background-color: transparent;
+    width: 200px;
+    padding: 10px 0 11px;
+    border: 1px solid #cfba95;
+    color: #cfba95;
+    float: right;
+    font-family: "sofia-pro", "Helvetica Neue", "Helvetica", sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase; }
+    @media (min-width: 768px) {
+      .contact__form button {
+        margin: 2em 0;
+        float: right; } }
+    .contact__form button:hover, .contact__form button:focus, .contact__form button:active {
+      outline: none;
+      background-color: #ffffff;
+      color: #050606;
+      border: 1px solid #ffffff;
+      -moz-transition: all 0.5s ease-in-out;
+      -o-transition: all 0.5s ease-in-out;
+      -webkit-transition: all 0.5s ease-in-out;
+      transition: all 0.5s ease-in-out; }
 
 /*----------------------------------------
   #SIDEBAR
