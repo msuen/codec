@@ -2,17 +2,17 @@
 
 # Set this to the root of your project when deployed:
 http_path = "/"
-http_images_path = "http://msuen.github.io/codec/assets/img/"
 css_dir = "assets/css"
 sass_dir = "assets/sass"
 images_dir = "assets/img"
 javascripts_dir = "assets/js"
 fonts_dir = "assets/fonts"
+http_images_path = http_path + "/codec/" + images_dir
 
 output_style = :compressed
 
 # To enable relative paths to assets via compass helper functions. Uncomment:
-relative_assets = true
+# relative_assets = true
 
 # To disable debugging comments that display the original location of your selectors. Uncomment:
 # line_comments = false
