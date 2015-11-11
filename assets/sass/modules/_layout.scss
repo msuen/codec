@@ -25,6 +25,11 @@ body {
 	color: $dark-grey;
 }
 
+img {
+	display: block;
+	max-width: 100%;
+}
+
 %container {
 	border-width: 20px;
 	border-style: solid;
@@ -46,4 +51,31 @@ body {
 	height: 100vh;
 	height: calc(100vh - 40px);
 	overflow: scroll;
+}
+
+%content {
+	padding: 2em 0 0 2em;
+	@include bp(lg) {
+		padding: 2em 0;
+	}
+}
+
+// Masonry
+.grid-item {
+	float: left;
+	margin-bottom: 2em;
+	img {
+		width: 100%;
+		@include bp(md) {
+			float: left;
+		}
+	}
+}
+.grid-sizer, .grid-item {
+	width: 45%;
+	width: calc(50% - 20px);
+	@include bp(md) {
+		width: 31%;
+		width: calc(33.333% - 20px); 
+	}
 }

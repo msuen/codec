@@ -1,3 +1,10 @@
 /*----------------------------------------
   #HOME
 ----------------------------------------*/
+
+.content--home {
+	@extend %content;
+	@include bp(lg) {
+		@include span(last 10 of 12);
+	}
+}

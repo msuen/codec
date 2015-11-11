@@ -160,9 +160,11 @@ p a {
 .small-text, .header__description, nav ul {
   font-size: 12px;
   font-size: 1.2rem;
-  letter-spacing: 1px;
-  text-transform: uppercase;
   line-height: 1.6; }
+
+.spaced, nav ul {
+  letter-spacing: 2px;
+  text-transform: uppercase; }
 
 /*----------------------------------------
   #LAYOUT
@@ -182,6 +184,10 @@ html {
 body {
   background-color: #ffffff;
   color: #696969; }
+
+img {
+  display: block;
+  max-width: 100%; }
 
 .container--white, .container--black {
   border-width: 20px;
@@ -206,12 +212,35 @@ body {
     display: block;
     clear: both; }
 
+.content--home {
+  padding: 2em 0 0 2em; }
+  @media (min-width: 1024px) {
+    .content--home {
+      padding: 2em 0; } }
+
+.grid-item {
+  float: left;
+  margin-bottom: 2em; }
+  .grid-item img {
+    width: 100%; }
+    @media (min-width: 768px) {
+      .grid-item img {
+        float: left; } }
+
+.grid-sizer, .grid-item {
+  width: 45%;
+  width: calc(50% - 20px); }
+  @media (min-width: 768px) {
+    .grid-sizer, .grid-item {
+      width: 31%;
+      width: calc(33.333% - 20px); } }
+
 /*----------------------------------------
   #SIDEBAR
 ----------------------------------------*/
 @media (min-width: 1024px) {
   .sidebar {
-    width: 23.72881%;
+    width: 15.25424%;
     float: left;
     margin-right: 1.69492%; } }
 
@@ -247,8 +276,18 @@ nav {
 nav ul {
   font-family: "futura-pt", "Helvetica Neue", "Helvetica", sans-serif; }
   nav ul a {
-    margin-bottom: 1.5em; }
+    margin-bottom: 1.5em;
+    font-weight: 700; }
 
 /*----------------------------------------
   #HOME
+----------------------------------------*/
+@media (min-width: 1024px) {
+  .content--home {
+    width: 83.05085%;
+    float: right;
+    margin-right: 0; } }
+
+/*----------------------------------------
+  #STATES
 ----------------------------------------*/

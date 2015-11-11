@@ -90,6 +90,9 @@ p a {
 
 .small-text {
 	@include font-size($sm-font);
-	@include text-transform(1px, uppercase);
 	@include line-height($line-height-base-ratio);
+}
+
+.spaced {
+	@include text-transform(2px, uppercase);
 }

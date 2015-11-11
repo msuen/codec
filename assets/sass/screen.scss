@@ -7,11 +7,11 @@
 // Base
 @import "global/base";
 
-// Third-Party
-@import "susy";
-
 // Partials
 @import "modules/typography";
 @import "modules/layout";
 @import "modules/sidebar";
 @import "modules/content--home";
+
+// States
+@import "global/states"
