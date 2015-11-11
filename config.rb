@@ -7,7 +7,10 @@ sass_dir = "assets/sass"
 images_dir = "assets/img"
 javascripts_dir = "assets/js"
 fonts_dir = "assets/fonts"
-http_images_path = http_path + "/codec/" + images_dir
+http_stylesheets_path = http_path + "codec/" + css_dir
+http_images_path = http_path + "codec/" + images_dir
+http_javascripts_path = http_path + "codec/" + javascripts_dir
+http_fonts_path = http_path + "codec/" + fonts_dir
 
 output_style = :compressed
 
