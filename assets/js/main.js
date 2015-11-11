@@ -1,3 +1,11 @@
+$(document).ready(function(){
+    jQuery('#slider').slippry({
+    	speed: 3000,
+    	pause: 2500,
+    	pager: false, 
+    	controls: false
+    });
+});
 // init Masonry
 var $grid = $('.grid').masonry({
 	// set itemSelector so .grid-sizer is not used in layout

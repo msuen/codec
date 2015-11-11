@@ -3,8 +3,8 @@
 ----------------------------------------*/
 
 // #Typography
-$serif: 'Georgia', serif;
-$sans-serif: 'futura-pt', 'Helvetica Neue', 'Helvetica', sans-serif;
+$serif: 'ltc-bodoni-175', 'Georgia', serif;
+$sans-serif: 'sofia-pro', 'Helvetica Neue', 'Helvetica', sans-serif;
 
 $rem-base: 62.5%;
 $font-base: 16px;
@@ -21,8 +21,7 @@ $xxxl-font: 64px;
 $huge-font: 96px;
 
 $light-font: 200;
-$thin-font: 400;
-$thick-font: 500;
+$regular-font: 400;
 $bold-font: 700;
 
 // #Color Palette
@@ -31,4 +30,5 @@ $dark-grey: #696969;
 $med-grey: #A9A9A9;
 $light-grey: #D3D3D3;
 $white: #ffffff;
+$red: #ea1e31;
 $sourdough: #cfba95;

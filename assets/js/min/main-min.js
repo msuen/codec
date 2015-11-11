@@ -1,1 +1,1 @@
-var $grid=$(".grid").masonry({itemSelector:".grid-item",columnWidth:".grid-sizer",gutter:20,percentPosition:!0});$grid.imagesLoaded().progress(function(){$grid.masonry("layout")});
+$(document).ready(function(){jQuery("#slider").slippry({speed:3e3,pause:2500,pager:!1,controls:!1})});var $grid=$(".grid").masonry({itemSelector:".grid-item",columnWidth:".grid-sizer",gutter:20,percentPosition:!0});$grid.imagesLoaded().progress(function(){$grid.masonry("layout")});

@@ -4,6 +4,7 @@
 
 .sidebar {
 	@include bp(lg) {
+		position: fixed;
 		@include span(2 of 12);
 	}
 }
@@ -30,8 +31,8 @@ header {
 
 .header__description {
 	@extend .small-text;
+	@include text-transform(2px,uppercase);
 	max-width: 20em;
-	color: $med-grey;
 	font-family: $sans-serif;
 	width: 95%;
     display: block;
@@ -46,10 +47,14 @@ nav {
 
 nav ul {
 	@extend .small-text;
-	@extend .spaced;
+	@include text-transform(2px,uppercase);
 	font-family: $sans-serif;
+	color: $light-grey;
 	a {
 		margin-bottom: 1.5em;
-		font-weight: $bold-font;
+		&:hover {
+			color: $white;
+			@include single-transition(color,0.15s,ease-in-out);
+		}
 	}
 }

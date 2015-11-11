@@ -6,72 +6,104 @@ html {
 	font-size: $rem-base;
 }
 
+body {
+	font-family: $serif;
+	font-weight: $light-font;
+	@include line-height($line-height-base-ratio);
+}
+
 .wf-loading {
     @include opacity(0);
 }
 
 .wf-active, .wf-inactive {
     @include opacity(1);
-    @include single-transition(opacity,0.3s,ease-in-out);
+    @include single-transition(opacity,0.2s,ease-in-out);
 }
 
 h1,h2,h3,h4,h5,h6,p {
-	@include line-height($line-height-base-ratio);
-	margin: 2em 0;
+	margin: 1em 0;
 }
 
 h1,h2,h3,h4,h5,h6 {
 	font-family: $sans-serif;
-	@include line-height($line-height-base-ratio);
+	font-weight: $bold-font;
 }
 
 h1,h2,h3 {
-	font-weight: $bold-font;
 	@include text-transform(-1px, none);
-}
-
-h4,h5,h6 {
-	font-weight: $thick-font;
+	margin: 0.5em 0;
 }
 
 h1 {
-	@include font-size($lg-font);
+	@include font-size($lg-font/2);
+	@include bp(md) {
+		@include font-size($lg-font);
+	}
 }
 
 h2 {
-	@include font-size($md-font);
+	@include font-size($md-font/2);
+	@include bp(md) {
+		@include font-size($md-font);
+	}
 }
 
 h3 {
-	@include font-size($sm-font);
+	@include font-size($sm-font/2);
+	@include bp(md) {
+		@include font-size($sm-font);
+	}
 }
 
 h4 {
-	@include font-size($xs-font);
+	@include font-size($xs-font/2);
+	@include bp(md) {
+		@include font-size($xs-font);
+	}
 }
 
 .h1 {
-	@include font-size($huge-font);
+	@include font-size($huge-font/2);
+	@include bp(md) {
+		@include font-size($huge-font);
+	}
 }
 
 .h2 {
-	@include font-size($xxxl-font);
+	@include font-size($xxxl-font/2);
+	@include bp(md) {
+		@include font-size($xxxl-font);
+	}
 }
 
 .h3 {
-	@include font-size($xxl-font);
+	@include font-size($xxl-font/2);
+	@include bp(md) {
+		@include font-size($xxl-font);
+	}
 }
 
 .h4 {
-	@include font-size($xl-font);
+	@include font-size($xl-font/2);
+	@include bp(md) {
+		@include font-size($xl-font);
+	}
 }
 
 .h5 {
-	@include font-size($lg-font);
+	@include font-size($lg-font/2);
+	@include bp(md) {
+		@include font-size($lg-font);
+	}
+	@include text-transform(1px, uppercase);
 }
 
 .h6 {
-	@include font-size($md-font);
+	@include font-size($md-font/2);
+	@include bp(md) {
+		@include font-size($md-font);
+	}
 	@include text-transform(1px, uppercase);
 }
 
@@ -79,20 +111,14 @@ p {
 	font-family: $serif;
 	font-weight: $light-font;
 	@include font-size($md-font);
-	@include line-height($line-height-base-ratio);
 }
 
-p a {
+a {
 	text-decoration: none;
-	padding-bottom: 5px;
-	border-bottom: 1px solid $dark-grey;
+	color: $med-grey;
 }
 
 .small-text {
 	@include font-size($sm-font);
-	@include line-height($line-height-base-ratio);
-}
-
-.spaced {
-	@include text-transform(2px, uppercase);
+	font-weight: $light-font;
 }

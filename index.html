@@ -11,6 +11,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <link href="assets/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+        <link href="assets/css/vendor/slippry.css" rel="stylesheet" type="text/css" />
         <script>document.documentElement.className += ' wf-loading';</script>
         <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
@@ -18,31 +19,36 @@
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <div class="container--white">
+        <div class="container--black">
             <div class="container__content">
                 <div class="sidebar">
                     <header>
                         <h1 class="h4 header__logo">
-                            <a href="#"><span class="header__name">Codec</span></a>
+                            <a href="/"><span class="header__name">Codec</span></a>
                         </h1>
-                        <span class="small-text header__description">A visual merchandising<br>production partner</span>
+                        <span class="small-text header__description is-serif">Visual Merchandising Reimagined</span>
                     </header>
                     <nav>
                         <ul>
-                            <li><a>About Us</a></li>
-                            <li><a>Services</a></li>
-                            <li><a>Work</a></li>
-                            <li><a>Contact</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
                         </ul>
                     </nav>
                 </div>
-                <div class="content--home">
-                    <div class="grid">
-                        <div class="grid-sizer"></div>
-                        <div class="grid-item"><img src="http://placehold.it/300x300" /></div>
-                        <div class="grid-item"><img src="http://placehold.it/300x500" /></div>
-                        <div class="grid-item"><img src="http://placehold.it/300x300" /></div>
-                    </div>
+                <div class="content content--home">
+                    <ul id="slider">
+                        <li>
+                            <a href="#slide1"><img src="http://placehold.it/800x500" alt="Image 1"></a>
+                        </li>
+                        <li>
+                            <a href="#slide2"><img src="http://placehold.it/800x500"  alt="Image 2"></a>
+                        </li>
+                        <li>
+                            <a href="#slide3"><img src="http://placehold.it/800x500" alt="Image 3"></a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -51,8 +57,7 @@
         <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.1.4.min.js"><\/script>')</script>
         <script src="https://use.typekit.net/icw4kex.js"></script>
         <script>try{Typekit.load({ async: true });}catch(e){}</script>
-        <script src="assets/js/vendor/imagesloaded.pkgd.min.js"></script>
-        <script src="assets/js/vendor/masonry.pkgd.min.js"></script>
+        <script src="assets/js/vendor/slippry.min.js"></script>
         <!-- JavaScript -->
         <script src="assets/js/main.js"></script>
     </body>

@@ -21,8 +21,9 @@ html {
 
 // Body
 body {
-	background-color: $white;
-	color: $dark-grey;
+	-webkit-text-size-adjust: 100%;
+	background-color: $black;
+	color: $white;
 }
 
 img {
@@ -34,6 +35,13 @@ img {
 	border-width: 20px;
 	border-style: solid;
 	height: auto;
+}
+
+%responsive-w-border {
+	width: 100%;
+	max-width: 95%;
+	max-width: calc(100% - 20px);
+	margin-bottom: 2em;
 }
 
 .container--white {
@@ -72,10 +80,124 @@ img {
 	}
 }
 .grid-sizer, .grid-item {
-	width: 45%;
-	width: calc(50% - 20px);
+	width: 97%;
+	width: calc(100% - 20px);
+	@include bp(sm) {
+		width: 45%;
+		width: calc(50% - 20px);
+	}
 	@include bp(md) {
 		width: 31%;
 		width: calc(33.333% - 20px); 
+	}
+}
+
+// Content
+.content {
+	@extend %content;
+	@include bp(lg) {
+		@include span(last 10 of 12);
+	}
+}
+
+// Services
+.service--learn, .service--capabilities, .service--capacities {
+	ul {
+		font-family: $sans-serif;
+		@include text-transform(1px,uppercase);
+	}
+	li, p {
+		color: $med-grey;
+		font-size: 1.25rem;
+		list-style-type: none;
+	}
+	margin-bottom: 2em;
+}
+
+.service--learn {
+	border-left: $sourdough 2px solid;
+	padding-left: 2em;
+	@include bp(lg) {
+		@include span(first 6 of 12);
+	}
+	p { 
+		margin: 0;
+		font-style: italic;
+	}
+}
+
+.service--capabilities {
+	@include bp(lg) {
+		@include span(3 of 12);
+	}
+}
+
+.service--capacities {
+	@include bp(lg) {
+		@include span(last 3 of 12);
+	}
+}
+
+.content--services img {
+	@extend %responsive-w-border;
+}
+
+// About
+#about {
+	background-image: url('../img/home-bg.jpg');
+}
+.content--about img {
+	@extend %responsive-w-border;
+}
+
+.content--about {
+	h1, p {
+		word-wrap: break-word;
+		max-width: 95%;
+		max-width: calc(100% - 20px);
+	}
+	h1 {
+		@extend %visuallyhidden;
+	}
+	p { 
+		max-width: 600px; 
+		padding-right: 1em;
+	}
+}
+
+// Contact
+.content--contact {
+	h1, p {
+		word-wrap: break-word;
+		max-width: 95%;
+		max-width: calc(100% - 20px);
+	}
+}
+
+.contact__form {
+	input {
+		min-width: 200px;
+		width: 100%;
+		max-width: 95%;
+		max-width: calc(100% - 20px);
+		margin-bottom: 2em;
+		border: 1px $white solid;
+		padding: 10px 15px;
+		@include bp(md) {
+			width: auto;
+		}
+		&:focus, &:active {
+			outline: none;
+			border: 1px $red solid;
+			@include single-transition(border,0.3s,ease-in-out);
+		}
+	}
+	textarea {
+		@extend input;
+		height: 60px;
+		&:focus, &:active {
+			height: 400px;
+			@include single-transition(height,0.5s,ease-in-out);
+		}
 	}
 }

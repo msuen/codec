@@ -1,3 +1,15 @@
 /*----------------------------------------
   #STATES
 ----------------------------------------*/
+
+.is-active {
+	color: $white;
+}
+
+.is-inactive {
+	color: $dark-grey !important;
+}
+
+.is-gold {
+	color: $sourdough;
+}
