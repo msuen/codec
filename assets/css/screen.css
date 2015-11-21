@@ -202,10 +202,10 @@ a {
   a:hover, a:focus {
     color: #dfd1b8;
     border-bottom: 1px solid #dfd1b8;
-    -moz-transition: all ease-in-out;
-    -o-transition: all ease-in-out;
-    -webkit-transition: all ease-in-out;
-    transition: all ease-in-out; }
+    -moz-transition: all 0.15s ease-in-out;
+    -o-transition: all 0.15s ease-in-out;
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out; }
 
 .small-text, .content__navigation, nav ul {
   font-size: 12px;
