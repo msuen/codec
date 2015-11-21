@@ -109,6 +109,9 @@ img {
 	width: 97%;
 	width: calc(100% - 20px);
 	a {
+		padding-bottom: none;
+		border-bottom: none;
+		color: $med-grey;
 		&:hover {
 			color: $white;
 			@include single-transition(color,0.15s,ease-in-out);

@@ -196,9 +196,18 @@ p {
 
 a {
   text-decoration: none;
-  color: #A9A9A9; }
+  color: #cfba95;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #cfba95; }
+  a:hover, a:focus {
+    color: #dfd1b8;
+    border-bottom: 1px solid #dfd1b8;
+    -moz-transition: all ease-in-out;
+    -o-transition: all ease-in-out;
+    -webkit-transition: all ease-in-out;
+    transition: all ease-in-out; }
 
-.small-text, .content__navigation, .header__description, nav ul {
+.small-text, .content__navigation, nav ul {
   font-size: 12px;
   font-size: 1.2rem;
   font-weight: 200; }
@@ -297,12 +306,16 @@ img {
   padding-bottom: 1em;
   width: 97%;
   width: calc(100% - 20px); }
-  .content__navigation a:hover {
-    color: #ffffff;
-    -moz-transition: color 0.15s ease-in-out;
-    -o-transition: color 0.15s ease-in-out;
-    -webkit-transition: color 0.15s ease-in-out;
-    transition: color 0.15s ease-in-out; }
+  .content__navigation a {
+    padding-bottom: none;
+    border-bottom: none;
+    color: #A9A9A9; }
+    .content__navigation a:hover {
+      color: #ffffff;
+      -moz-transition: color 0.15s ease-in-out;
+      -o-transition: color 0.15s ease-in-out;
+      -webkit-transition: color 0.15s ease-in-out;
+      transition: color 0.15s ease-in-out; }
 
 .content__navigation-load {
   height: 1px;
@@ -552,21 +565,14 @@ header {
   display: block;
   height: 80px;
   width: 80px;
+  border-bottom: none;
+  padding-bottom: 0;
   background-image: url('/codec/assets/img/logo.png?1447233971'); }
   @media (min--moz-device-pixel-ratio: 1.3), (-o-min-device-pixel-ratio: 2.6 / 2), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
     .header__logo a {
       /* on retina, use image that's scaled by 2 */
       background-image: url('/codec/assets/img/logo-2x.png?1447233971');
       background-size: 80px 80px; } }
-
-.header__description {
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  max-width: 20em;
-  font-family: "sofia-pro", "Helvetica Neue", "Helvetica", sans-serif;
-  width: 95%;
-  display: block;
-  margin: 2em 0; }
 
 nav {
   display: block;
@@ -578,13 +584,13 @@ nav ul {
   font-family: "sofia-pro", "Helvetica Neue", "Helvetica", sans-serif;
   color: #D3D3D3; }
   nav ul a {
-    margin-bottom: 1.5em; }
+    padding-bottom: 0;
+    border-bottom: none;
+    margin-bottom: 1.5em;
+    color: #A9A9A9; }
     nav ul a:hover {
-      color: #ffffff;
-      -moz-transition: color 0.15s ease-in-out;
-      -o-transition: color 0.15s ease-in-out;
-      -webkit-transition: color 0.15s ease-in-out;
-      transition: color 0.15s ease-in-out; }
+      border-bottom: none;
+      color: #ffffff; }
 
 /*----------------------------------------
   #STATES
