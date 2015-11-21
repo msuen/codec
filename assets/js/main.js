@@ -1,4 +1,12 @@
+(function ( $ ) {
+  $.fn.progress = function() {
+    var percent = this.data("percent");
+    this.css("width", percent+"%");
+  };
+}( jQuery ));
+
 $(document).ready(function(){
+    $(".content__navigation-load .load").progress();
     jQuery('#slider').slippry({
     	speed: 3000,
     	pause: 2500,

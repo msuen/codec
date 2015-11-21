@@ -1,0 +1,239 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 168.0,
+		"last_filter": "git status",
+		"selected_items":
+		[
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"auto",
+				"Autoprefix CSS"
+			],
+			[
+				"packages",
+				"Package Control: List Packages"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"INSTALL",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/michael/Sites/codec/assets/sass/modules/_typography.scss",
+		"/Users/michael/Sites/codec/assets/sass/global/_variables.scss",
+		"/Users/michael/Sites/codec/assets/sass/global/_states.scss",
+		"/Users/michael/Sites/codec/services.html",
+		"/Users/michael/Sites/codec/assets/css/vendor/slippry.css",
+		"/Users/michael/Sites/codec/portfolio.html",
+		"/Users/michael/Sites/codec/index.html",
+		"/Users/michael/Sites/codec/assets/js/main.js",
+		"/Users/michael/Sites/codec/assets/sass/modules/_content--home.scss",
+		"/Users/michael/Sites/codec/assets/sass/global/_mixins.scss",
+		"/Users/michael/Sites/codec/config.rb",
+		"/Users/michael/Sites/codec/assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js",
+		"/Users/michael/Sites/codec/assets/sass/screen.scss",
+		"/Users/michael/Sites/codec/assets/sass/global/_base.scss",
+		"/Users/michael/Sites/codec/assets/sass/modules/_sidebar.scss",
+		"/Users/michael/Sites/codec/assets/sass/global/_constants.scss",
+		"/Users/michael/Sites/codec/_constants.scss",
+		"/Users/michael/Sites/codec/assets/css/ie.css",
+		"/Users/michael/Sites/codec/assets/sass/global/_all.scss",
+		"/Users/michael/Sites/codec/assets/sass/modules/_all.scss",
+		"/Users/michael/Sites/codec/assets/sass/partials/_base.scss",
+		"/Users/michael/Sites/codec/_all.scss",
+		"/Users/michael/Sites/codec/assets/sass/modules/_variables.scss",
+		"/Users/michael/Sites/codec/_mixins.scss",
+		"/Users/michael/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"margin-bottom: "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 66.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "config.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 283.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

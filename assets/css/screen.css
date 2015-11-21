@@ -198,7 +198,7 @@ a {
   text-decoration: none;
   color: #A9A9A9; }
 
-.small-text, .header__description, nav ul {
+.small-text, .content__navigation, .header__description, nav ul {
   font-size: 12px;
   font-size: 1.2rem;
   font-weight: 200; }
@@ -288,6 +288,36 @@ img {
     width: 83.05085%;
     float: right;
     margin-right: 0; } }
+
+.content__navigation {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #A9A9A9;
+  font-family: "sofia-pro", "Helvetica Neue", "Helvetica", sans-serif;
+  padding-bottom: 1em;
+  width: 97%;
+  width: calc(100% - 20px); }
+  .content__navigation a:hover {
+    color: #ffffff;
+    -moz-transition: color 0.15s ease-in-out;
+    -o-transition: color 0.15s ease-in-out;
+    -webkit-transition: color 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out; }
+
+.content__navigation-load {
+  height: 1px;
+  width: 97%;
+  width: calc(100% - 20px);
+  margin-bottom: 2em; }
+  .content__navigation-load .load {
+    float: left;
+    height: 100%;
+    width: 0%;
+    background-color: #A9A9A9;
+    -moz-transition: width 0.75s ease-in-out;
+    -o-transition: width 0.75s ease-in-out;
+    -webkit-transition: width 0.75s ease-in-out;
+    transition: width 0.75s ease-in-out; }
 
 .service--learn, .service--capabilities, .service--capacities {
   margin-bottom: 2em; }

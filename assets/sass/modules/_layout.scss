@@ -100,6 +100,35 @@ img {
 	}
 }
 
+.content__navigation {
+	@extend .small-text;
+	@include text-transform(1px,uppercase);
+	color: $med-grey;
+	font-family: $sans-serif;
+	padding-bottom: 1em;
+	width: 97%;
+	width: calc(100% - 20px);
+	a {
+		&:hover {
+			color: $white;
+			@include single-transition(color,0.15s,ease-in-out);
+		}
+	}
+}
+.content__navigation-load {
+	height: 1px;
+	width: 97%;
+	width: calc(100% - 20px);
+	margin-bottom: 2em;
+	.load {
+		float: left;
+		height: 100%;
+		width: 0%;
+		background-color: $med-grey;
+		@include single-transition(width,0.75s,ease-in-out);
+	}
+}
+
 // Services
 .service--learn, .service--capabilities, .service--capacities {
 	ul {
