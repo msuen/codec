@@ -119,8 +119,8 @@ a {
 	padding-bottom: 2px;
 	border-bottom: 1px solid $sourdough;
 	&:hover, &:focus {
-		color: lighten($sourdough,10%);
-		border-bottom: 1px solid lighten($sourdough,10%);
+		color: darken($sourdough,10%);
+		border-bottom: 1px solid darken($sourdough,10%);
 		@include single-transition(all,0.1.5s,ease-in-out)
 	}
 }

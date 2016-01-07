@@ -18,41 +18,43 @@
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <div class="container--black">
+        <div class="container">
             <div class="container__content">
                 <div class="sidebar">
                     <header>
                         <h1 class="h4 header__logo">
-                            <a href="index.html"><span class="header__name">Codec</span></a>
+                            <a href="index.html" class="nav__home"><span class="header__name">Codec</span></a>
                         </h1>
                     </header>
                     <nav>
                         <ul>
-                            <li><a href="services.html">Resources</a></li>
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="contact.html" class="is-active">Support</a></li>
+                            <li><a href="services.html" id="nav__resources">Resources</a></li>
+                            <li><a href="about.html" id="nav__about">About Us</a></li>
+                            <li><a href="contact.html" id="nav__support">Support</a></li>
                             <br />
-                            <li><a href="portfolio.html">A Quick Look</a></li>
-                            <li><a href="join.html">Join Codec</a></li>
+                            <li><a href="portfolio.html" id="nav__quicklook">A Quick Look at Codec</a></li>
+                            <li><a href="join.html" id="nav__join">Join Codec</a></li>
                         </ul>
                     </nav>
                 </div>
-                <div class="content content--join">
-                <div class="content__navigation"><a href="/">Home</a> > 
-                        <span class="is-active">Join Codec</span>
-                    </div>
-                    <div class="content__navigation-load">
-                        <div class="load" data-percent="100"></div>
-                    </div>
-                    <div class="contact__form">
-                        <h5 class="h2">Join our team.</h1>
-                        <form>
-                            <input type="text" placeholder="First Name">
-                            <input type="text" placeholder="Last Name">
-                            <input type="email" placeholder="Email Address">
-                            <textarea placeholder="Enter your message here"></textarea>
-                            <button>Submit</button>
-                        </form>
+                <div id="ajax">
+                    <div class="content content--join">
+                    <div class="content__navigation"><a href="/">Home</a> > 
+                            <span class="is-active">Join Codec</span>
+                        </div>
+                        <div class="content__navigation-load">
+                            <div class="load" data-percent="100"></div>
+                        </div>
+                        <div class="contact__form">
+                            <h3 class="h2">Join our team.</h5>
+                            <form>
+                                <input type="text" placeholder="First Name">
+                                <input type="text" placeholder="Last Name">
+                                <input type="email" placeholder="Email Address">
+                                <textarea placeholder="Enter your message here"></textarea>
+                                <button>Submit</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>

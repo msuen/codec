@@ -3,9 +3,10 @@
 ----------------------------------------*/
 
 .sidebar {
+	padding-top: 20px;
 	@include bp(lg) {
 		position: fixed;
-		@include span(2 of 12);
+		@include span(2 of 8);
 	}
 }
 
@@ -47,9 +48,9 @@ nav ul {
 		border-bottom: none;
 		margin-bottom: 1.5em;
 		color: $med-grey;
-		&:hover {
+		&:hover, &:focus {
 			border-bottom: none;
-			color: $white;
+			color: $black;
 		}
 	}
 }

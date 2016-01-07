@@ -1,29 +1,81 @@
-(function ( $ ) {
-  $.fn.progress = function() {
-    var percent = this.data("percent");
-    this.css("width", percent+"%");
-  };
-}( jQuery ));
-
-$(document).ready(function(){
-    $(".content__navigation-load .load").progress();
-    jQuery('#slider').slippry({
-    	speed: 3000,
-    	pause: 2500,
-    	pager: false, 
-    	controls: false
-    });
-});
-// init Masonry
 var $grid = $('.grid').masonry({
-	// set itemSelector so .grid-sizer is not used in layout
-	itemSelector: '.grid-item',
-	// use element for option
-	columnWidth: '.grid-sizer',
-	gutter: 20,
-	percentPosition: true
+    // set itemSelector so .grid-sizer is not used in layout
+    itemSelector: '.grid-item',
+    // use element for option
+    columnWidth: '.grid-sizer',
+    gutter: 20,
+    percentPosition: true
 });
 // layout Masonry after each image loads
 $grid.imagesLoaded().progress( function() {
   $grid.masonry('layout');
 });
+
+$(document).ready(function() {
+
+    $('#slider').slippry({
+        speed: 3000,
+        pause: 2500,
+        pager: false, 
+        controls: false
+    });
+
+    $('.nav__home').click(function(e) {
+        e.preventDefault();
+        $('nav a').removeClass('is-active');
+        $('#ajax').load('index.html #ajax > *');
+        $.ajax({
+            success: function() {
+                $('#slider').slippry({
+                    speed: 3000,
+                    pause: 2500,
+                    pager: false, 
+                    controls: false
+                });
+            }
+        });
+    });
+
+    $('nav a').click(function(e) {
+        e.preventDefault();
+        var navLink = $(this).attr('href');
+        $('nav a').removeClass('is-active');
+        $('#ajax').load(navLink + ' #ajax > *');
+        $(this).addClass('is-active');
+        $.ajax({
+            success: function() {
+                $(".content__navigation-load .load").animate({
+                    width: "100%"
+                }, 100 );
+            },
+            complete: function() {
+                $('.accordion__section--title').click(function() {
+                    var currentAttrValue = $(this).attr('href');
+                    if($(this).is('.active')) {
+                        $(this).removeClass('active');
+                        $('.accordion ' + currentAttrValue).hide().removeClass('open');
+                    } else {
+                        $(this).addClass('active');
+                        $('.accordion ' + currentAttrValue).show().addClass('open'); 
+                    }
+                });
+
+                $('.accordion__expand').click(function() {
+                    if($(this).is('.expanded')) {
+                        $(this).removeClass('expanded');
+                        $(this).text("Expand All");
+                        $('.accordion .accordion__section--title').removeClass('active');
+                        $('.accordion .accordion__content').hide().removeClass('open');
+                    } else {
+                        $(this).addClass('expanded');
+                        $(this).text("Collapse All");
+                        $('.accordion .accordion__section--title').addClass('active');
+                        $('.accordion .accordion__content').show().addClass('open');
+                    }
+                });
+            }
+        });
+    });
+});
+
+

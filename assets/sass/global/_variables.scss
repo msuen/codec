@@ -32,3 +32,10 @@ $light-grey: #D3D3D3;
 $white: #ffffff;
 $red: #ea1e31;
 $sourdough: #cfba95;
+
+// #Susy Overwrites
+$susy: (
+	columns: 8,
+	gutters: 1/2,
+	gutter-position: split
+);

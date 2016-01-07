@@ -1,0 +1,41 @@
+.square { 
+  width:30px;
+  height:30px;
+  background: transparent;
+  position:relative;
+  font-size:20px;
+  font-weight:bold;
+  cursor:pointer;
+  color: #000;
+}
+.plus, .minus {
+  width:30px;
+  height:30px;
+  display:block;
+  position:absolute;
+  top:0; left:0;
+  line-height:32px;
+  text-align:center;
+  -webkit-transition: .5s all ease-out;
+  transition: .5s all ease-out;
+}
+.plus { 
+  opacity:1;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+.square:hover .plus {
+  opacity:0;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.minus {
+  opacity:0;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+.square:hover .minus {
+  opacity:1;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
