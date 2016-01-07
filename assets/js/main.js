@@ -25,6 +25,7 @@ $(document).ready(function() {
         $('nav a').removeClass('is-active');
         $('#ajax').load('index.html #ajax > *');
         $.ajax({
+            cache: false,
             success: function() {
                 $('#slider').slippry({
                     speed: 3000,
@@ -39,16 +40,15 @@ $(document).ready(function() {
     $('nav a').click(function(e) {
         e.preventDefault();
         var navLink = $(this).attr('href');
-        $('nav a').removeClass('is-active');
         $('#ajax').load(navLink + ' #ajax > *');
+        $('nav a').removeClass('is-active');
         $(this).addClass('is-active');
         $.ajax({
-            success: function() {
+            cache: false,
+            complete: function() {
                 $(".content__navigation-load .load").animate({
                     width: "100%"
                 }, 100 );
-            },
-            complete: function() {
                 $('.accordion__section--title').click(function() {
                     var currentAttrValue = $(this).attr('href');
                     if($(this).is('.active')) {
@@ -89,6 +89,7 @@ $(document).ready(function() {
 
     $('#nav__quicklook').click(function() {
         $.ajax({
+            cache: false,
             success: function() {
                 var $grid = $('.grid').masonry({
                     // set itemSelector so .grid-sizer is not used in layout
