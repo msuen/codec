@@ -110,7 +110,7 @@ h4 {
 p {
 	font-family: $serif;
 	font-weight: $light-font;
-	@include font-size($md-font);
+	@include font-size(18px);
 }
 
 a {
