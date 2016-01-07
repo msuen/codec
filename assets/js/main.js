@@ -1,15 +1,15 @@
-var $grid = $('.grid').masonry({
-    // set itemSelector so .grid-sizer is not used in layout
-    itemSelector: '.grid-item',
-    // use element for option
-    columnWidth: '.grid-sizer',
-    gutter: 20,
-    percentPosition: true
-});
-// layout Masonry after each image loads
-$grid.imagesLoaded().progress( function() {
-  $grid.masonry('layout');
-});
+// var $grid = $('.grid').masonry({
+//     // set itemSelector so .grid-sizer is not used in layout
+//     itemSelector: '.grid-item',
+//     // use element for option
+//     columnWidth: '.grid-sizer',
+//     gutter: 20,
+//     percentPosition: true
+// });
+// // layout Masonry after each image loads
+// $grid.imagesLoaded().progress( function() {
+//   $grid.masonry('layout');
+// });
 
 $(document).ready(function() {
 
@@ -53,10 +53,20 @@ $(document).ready(function() {
                     var currentAttrValue = $(this).attr('href');
                     if($(this).is('.active')) {
                         $(this).removeClass('active');
+                        $(this).addClass('inactive');
                         $('.accordion ' + currentAttrValue).hide().removeClass('open');
                     } else {
                         $(this).addClass('active');
+                        $(this).removeClass('inactive');
                         $('.accordion ' + currentAttrValue).show().addClass('open'); 
+                    }
+                    if ($(".accordion__section--title.active").length === $(".accordion__section--title").length) {
+                        $(".accordion__expand").addClass('expanded');
+                        $(".accordion__expand").text("Collapse All");
+                    }
+                    if ($(".accordion__section--title.inactive").length === $(".accordion__section--title").length) {
+                        $(".accordion__expand").removeClass('expanded');
+                        $(".accordion__expand").text("Expand All");
                     }
                 });
 
@@ -72,6 +82,25 @@ $(document).ready(function() {
                         $('.accordion .accordion__section--title').addClass('active');
                         $('.accordion .accordion__content').show().addClass('open');
                     }
+                });
+            }
+        });
+    });
+
+    $('#nav__quicklook').click(function() {
+        $.ajax({
+            success: function() {
+                var $grid = $('.grid').masonry({
+                    // set itemSelector so .grid-sizer is not used in layout
+                    itemSelector: '.grid-item',
+                    // use element for option
+                    columnWidth: '.grid-sizer',
+                    gutter: 20,
+                    percentPosition: true
+                });
+                $grid.imagesLoaded().done( function() {
+                    $grid.masonry('reloadItems');
+                    $grid.masonry('layout');
                 });
             }
         });
