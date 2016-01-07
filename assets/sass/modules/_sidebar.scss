@@ -40,7 +40,7 @@ nav {
 
 nav ul {
 	@extend .small-text;
-	@include text-transform(2px,uppercase);
+	@include text-transform(1px,normal);
 	font-family: $sans-serif;
 	color: $light-grey;
 	a {

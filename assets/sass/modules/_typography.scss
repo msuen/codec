@@ -126,6 +126,6 @@ a {
 }
 
 .small-text {
-	@include font-size($sm-font);
+	@include font-size($md-font);
 	font-weight: $light-font;
 }

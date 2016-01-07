@@ -100,7 +100,7 @@ img {
 // Content
 .content {
 	@extend %content;
-	padding-top: 88px;
+	padding-top: 78px;
 	@include bp(lg) {
 		@include span(last 6 of 8);
 	}
@@ -108,7 +108,7 @@ img {
 
 .content__navigation {
 	@extend .small-text;
-	@include text-transform(1px,uppercase);
+	@include text-transform(0.5px,normal);
 	color: $med-grey;
 	font-family: $sans-serif;
 	padding-bottom: 1em;
