@@ -24,6 +24,12 @@ $(document).ready(function() {
         e.preventDefault();
         $('nav a').removeClass('is-active');
         $('#ajax').load('index.html #ajax > *');
+        if(history.pushState) {
+            history.pushState(null, null, this.id);
+        }
+        else {
+            window.location.hash = this.id;
+        }
         $.ajax({
             cache: false,
             success: function() {
@@ -42,7 +48,12 @@ $(document).ready(function() {
         var navLink = $(this).attr('href');
         $('#ajax').load(navLink + ' #ajax > *');
         $('nav a').removeClass('is-active');
-        $(this).addClass('is-active');
+        if(history.pushState) {
+            history.pushState(null, null, this.id);
+        }
+        else {
+            window.location.hash = this.id;
+        }
         $.ajax({
             cache: false,
             complete: function() {
@@ -87,7 +98,7 @@ $(document).ready(function() {
         });
     });
 
-    $('#nav__quicklook').click(function() {
+    $('#quicklook').click(function() {
         $.ajax({
             cache: false,
             success: function() {
